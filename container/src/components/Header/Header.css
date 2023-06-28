@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    padding: 20px 20px;
+    position: relative;
+    width: 50%;
+    min-width: 800px;
+    margin: 0 auto;    
+}
+.ant-menu{
+    background-color: transparent;
+    width: 100%;
+    padding-left: 50px;
+}
+.login{
+    font-size: 42px;
+    position: absolute;
+    right: 50px;
+    bottom: 19px;
+}

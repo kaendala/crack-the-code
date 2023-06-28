@@ -4,7 +4,6 @@ const { ModuleFederationPlugin } = webpack.container;
 const ForkTsCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
 const deps = require("./package.json").dependencies;
 require("dotenv").config({ path: "./.env" });
-
 const buildDate = new Date().toLocaleString();
 
 module.exports = (env, argv) => {
@@ -51,7 +50,21 @@ module.exports = (env, argv) => {
             ],
           },
         },
-      ],
+        {
+        test: /\.(css)$/i,
+        use:["style-loader", "css-loader"]
+        },
+        {
+          test: /\.(png|jpe?g|gif)$/i,
+          use: [
+            {
+              loader: 'file-loader',
+              options: { name: 'assets/[hash].[ext]' },
+            },
+          ],
+        },
+      ]
+        
     },
     plugins: [
       new webpack.EnvironmentPlugin({ BUILD_DATE: buildDate }),

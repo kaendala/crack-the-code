@@ -11,3 +11,7 @@ declare module 'videogames/Videogames' {
 
   export default Videogames;
 }
+declare module '*.png';
+declare module '*.svg';
+declare module '*.jpeg';
+declare module '*.jpg';

@@ -1,0 +1,10 @@
+.grid{
+    padding: 70px 20% 20px;
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 2.2vw;
+    gap: 20px 10% ;
+    grid-template-columns: 26.6% 26.6% 26.6%;
+    background-color: rgb(175 222 225);
+}
