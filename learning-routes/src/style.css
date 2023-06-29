@@ -11,3 +11,8 @@ h5,
 h6, p {
     margin: 0;
 }
+*,
+::after,
+::before {
+    box-sizing: revert !important;
+}

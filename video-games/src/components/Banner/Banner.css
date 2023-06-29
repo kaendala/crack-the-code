@@ -1,13 +1,27 @@
 .banner{
-    background-color: #b5bef0;
-    width: 60%;
-    padding: 0 20%;
+    background-color: #e78bba;
+    width: 100%;
     position: relative;
     height: 300px;
 }
+.containerInfo{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+}
 .imageBanner {
-    width: 100%;
-    text-align: center;
+    text-align: end;
+}
+.infoCourse{
+    background-color: #edcda8;
+        z-index: 2;
+        padding: 10px;
+        font-size: 14px;
+        height: 20%;
+        width: 238px;
+        border-radius: 0 0 8px 8px;
 }
 .img{
     height: 100%;
@@ -22,9 +36,14 @@
     z-index: 1;
 }
 .text{
-    position: absolute;
-    top: 50px;
-    width: 450px;
+    width: 300px;
     color: white;
     z-index: 2;
+    padding: 20px;
+}
+.text h1{
+   font-size: 2rem;
+}
+.infoCourse ul{
+    margin: 0;
 }

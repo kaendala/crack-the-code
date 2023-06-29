@@ -9,10 +9,10 @@ const Banner = () => {
       </div>
       <div className="text">
         <h1>Rutas de aprendizaje</h1>
-        <h3>
+        <p>
           Nuestros programas de 3 a 5 cursos organizados en niveles para que tu
           hij@ profundice en el tema que le apasiona.
-        </h3>
+        </p>
       </div>
       <div className="shadow" />
     </div>

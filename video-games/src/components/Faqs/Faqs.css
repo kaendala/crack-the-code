@@ -1,0 +1,18 @@
+.faqContent {
+    background-color: #FFF;
+    width: 100%;
+    position: relative;
+    padding: 0 0 40px;
+}
+
+.accordion {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.faqContent .card-header{
+    background-color: #ab678a;
+    color: #FFF;
+
+}

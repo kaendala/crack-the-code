@@ -96,7 +96,7 @@
     font-weight: 600;
 }
 .name{
-    margin-left: 26px;
+    margin-left: 26px !important;
     font-size: 14px;
 }
 .info{

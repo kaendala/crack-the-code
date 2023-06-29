@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { UserOutlined } from '@ant-design/icons';
 import { items } from './MenuProps';
 import { Menu } from 'antd';
